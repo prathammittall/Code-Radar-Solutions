@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int radius;
-    scanf("%d", &radius);
+    float radius;
+    scanf("%f", &radius);
 
     float r2 = radius*radius;
 
