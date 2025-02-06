@@ -6,7 +6,7 @@ int main() {
 
     float r2 = radius*radius;
 
-    printf("Area: %.2f", r2*3.14);
+    printf("Area: %f", r2);
 
     return 0;
 }
