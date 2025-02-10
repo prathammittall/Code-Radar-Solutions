@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int marks, result;
+    int marks;
+    char result;
     scanf("%d", &marks);
 
     if (marks>=90) {
