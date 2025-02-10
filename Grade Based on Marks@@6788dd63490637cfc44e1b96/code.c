@@ -5,15 +5,15 @@ int main() {
     scanf("%d", &marks);
 
     if (marks>=90)
-    result = 'A';
+        result = 'A';
     else if (marks>=80 && marks<90)
-    result = 'B';
+        result = 'B';
     else if (marks>=70 && marks<80)
-    result = 'C';
+        result = 'C';
     else if (marks>=60 and marks<70)
-    result = 'D';
+        result = 'D';
     else
-    result = 'F';
+        result = 'F';
 
     printf("%c", result);
 
