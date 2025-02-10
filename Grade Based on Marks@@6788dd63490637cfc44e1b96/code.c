@@ -2,21 +2,19 @@
 
 int main() {
     int marks;
-    char result;
     scanf("%d", &marks);
 
-    if (marks>=90) {
-        result = 'A';
-    } else if (marks>=80 && marks<90) {
-        result = 'B';
-    } else if (marks>=70 && marks<80) {
-        result = 'C';
-    } else if (marks>=60 and marks<70) {
-        result = 'D';
+    if (marks >= 90) {
+        printf("A\n");
+    } else if (marks >= 80) {
+        printf("B\n");
+    } else if (marks >= 70) {
+        printf("C\n");
+    } else if (marks >= 60) {
+        printf("D\n");
     } else {
-        result = 'F';
+        printf("F\n");
     }
-    printf("%c", result);
-
+    
     return 0;
 }
