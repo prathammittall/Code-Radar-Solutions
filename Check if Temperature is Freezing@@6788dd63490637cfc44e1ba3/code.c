@@ -6,6 +6,8 @@ int main() {
 
     if (n<=0) {
         printf("Freezing");
+    } else {
+        printf("Above Freezing");
     }
     return 0;
 }
