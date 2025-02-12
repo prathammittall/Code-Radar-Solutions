@@ -4,7 +4,7 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    if (n>7) {
+    if (n>7 || n<=0) {
         printf("Invalid");
     } else {
         switch (n) {
