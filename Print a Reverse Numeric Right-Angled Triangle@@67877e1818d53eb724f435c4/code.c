@@ -4,13 +4,12 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    for (int i=1; i<n; i++) {
-        int num = 1;
-        for (int j=n-i; j>0; j--) {
-            printf("%d ",num);
-            num++;
+    for (int i=n; i>0; i--) {
+        int counter = 1;
+        for (j=1; j<=i; j++) {
+            printf("%d", counter);
+            counter++;
         }
-        num = 1;
         printf("\n");
     }
     return 0;
