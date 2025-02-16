@@ -12,7 +12,11 @@ int main() {
     } else if (op=='*') {
         printf("%d", a*b);
     } else if (op=='/') {
-        printf("%f", a/b);
+        if (b!=0) {
+            printf("%d", a/b);
+        } else {
+            printf("Error");
+        }
     }
 
     return 0;
