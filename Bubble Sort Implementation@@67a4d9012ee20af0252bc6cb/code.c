@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void bubbleSort(int arr[]) {
+void bubbleSort(int arr[], int n) {
     int n = arr.length;
     for (int turn = 0; turn < n-1; turn++) {
         for (int j = 0; j < n-1-turn; j++) {
