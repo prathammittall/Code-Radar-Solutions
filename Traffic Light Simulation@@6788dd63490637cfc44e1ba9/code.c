@@ -8,8 +8,10 @@ int main() {
         printf("Stop");
     } else if (n=='G') {
         printf("Go");
-    } else {
+    } else if (n=='Y'){
         printf("Slow Down");
+    } else {
+        printf("Invalid Input");
     }
 
     return 0;
