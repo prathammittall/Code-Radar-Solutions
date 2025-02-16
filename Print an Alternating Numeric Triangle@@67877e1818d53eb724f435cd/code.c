@@ -1,18 +1,17 @@
 #include <stdio.h>
 
 int main() {
-    int n, counter=1;
+    int n;
     scanf("%d", &n);
 
-    for (int i=1; i<=n; i++) {
-        for (int j=1; j<=i; j++) {
-            printf("%d ", counter);
-            if (counter==1) {
-                counter=0;
-            } else {
-                counter = 1;
-            }
+    for (int i = 1; i <= n; i++) {
+        int start = i % 2; // Determine starting number for the row
+        for (int j = 0; j < i; j++) {
+            printf("%d ", start);
+            start = 1 - start; // Alternate between 1 and 0
         }
         printf("\n");
     }
+
+    return 0;
 }
