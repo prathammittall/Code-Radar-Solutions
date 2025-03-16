@@ -20,7 +20,7 @@ void printArray(int arr[], int n) {
     printf("\n");
 }
 
-int main() {
+int main() {  // Ensure only ONE main() function
     int arr[] = {5, 2, 9, 1, 5, 6};
     int n = sizeof(arr) / sizeof(arr[0]);
 
