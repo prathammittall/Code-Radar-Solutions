@@ -13,7 +13,7 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-void k_element(int arr[], int n, int k) {
+void kthSmallest(int arr[], int n, int k) {
     bubbleSort(arr, n);
     printf("%d\n", arr[k - 1]);
 }
