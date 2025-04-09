@@ -18,27 +18,27 @@ int last_occurance(int arr[], int n, int k){
     return -1;
 }
 
-int main(){
-    int n;
-    scanf("%d", &n);
+// int main(){
+//     int n;
+//     scanf("%d", &n);
     
-    int arr[n];
+//     int arr[n];
     
-    for (int i=0; i<n; i++){
-        scanf("%d", &arr[i]);
-    }
+//     for (int i=0; i<n; i++){
+//         scanf("%d", &arr[i]);
+//     }
 
-    int k;
-    scanf("%d", &k);
+//     int k;
+//     scanf("%d", &k);
 
-    char occurence;
-    scanf("%c", &occurence);
+//     char occurence;
+//     scanf("%c", &occurence);
 
-    if (occurence == 'F') {
-        printf("%d\n", first_occurance(arr, n, k));
-    } else {
-        printf("%d\n", last_occurance(arr, n, k));
-    }
+//     if (occurence == 'F') {
+//         printf("%d\n", first_occurance(arr, n, k));
+//     } else {
+//         printf("%d\n", last_occurance(arr, n, k));
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
