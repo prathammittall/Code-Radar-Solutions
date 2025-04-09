@@ -10,8 +10,9 @@ void bubbleSort(int arr[], int n) {
                 arr[j + 1] = temp;
             }
         }
+        return -1;
     }
-    return -1;
+    
 }
 
 int kthSmallest(int arr[], int n, int k) {
