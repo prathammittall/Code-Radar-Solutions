@@ -19,12 +19,3 @@ void printArray(int arr[], int n) {
     }
     printf("\n");
 }
-
-int main() {
-    int arr[] = {5, 2, 9, 1, 5, 6};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    printArray(arr, n);
-
-    return 0;
-}
