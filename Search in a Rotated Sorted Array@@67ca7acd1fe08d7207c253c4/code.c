@@ -2,7 +2,7 @@
 
 int searchInRotatedArray(int arr[], int n, int target) {
     int start = 0;
-    int end = n-1;
+    int end = n;
 
     while (start<=end) {
         int mid = (start + end)/2;
